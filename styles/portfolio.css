@@ -3,7 +3,6 @@
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -65,15 +64,6 @@ p {
   border-radius: 4px;
 }
 
-.btn-branding:hover {
-  color: black;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  background: var(--branding-color);
-  border-radius: 4px;
-}
-
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -84,49 +74,8 @@ p {
   padding: 15px 30px;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-}
-
-.primary-link {
-  background: var(--branding-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  text-decoration: none;
-  text-transform: capitalize;
-  border-radius: 4px;
-  padding: 20px 15px;
-}
-
-.secondary-link {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-  text-decoration: none;
-  text-transform: capitalize;
-  border-radius: 4px;
-  padding: 20px 15px;
-}
-
 .project-description {
   padding: 120px 60px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--branding-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
@@ -146,11 +95,5 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  .contact {
-    font-size: 38px;
-  }
-  .email-link {
-    font-size: 22px;
   }
 }
