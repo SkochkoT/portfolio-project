@@ -105,6 +105,15 @@ p {
   padding: 120px 60px;
 }
 
+.active,
+nav a:hover {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
